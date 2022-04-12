@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView { // 使用NavigationView 实现界面跳转
+            //使用跳转链接实现点击跳转
+            NavigationLink("Click me！", destination:NavigateTo())
+        }
     }
 }
 

@@ -11,6 +11,7 @@
 		616F520A280582C300A394AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F5209280582C300A394AD /* ContentView.swift */; };
 		616F520C280582C500A394AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616F520B280582C500A394AD /* Assets.xcassets */; };
 		616F520F280582C500A394AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616F520E280582C500A394AD /* Preview Assets.xcassets */; };
+		616F5217280587DB00A394AD /* NavigateTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616F5216280587DB00A394AD /* NavigateTo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		616F5209280582C300A394AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		616F520B280582C500A394AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		616F520E280582C500A394AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		616F5216280587DB00A394AD /* NavigateTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateTo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				616F5207280582C300A394AD /* test01App.swift */,
 				616F5209280582C300A394AD /* ContentView.swift */,
+				616F5216280587DB00A394AD /* NavigateTo.swift */,
 				616F520B280582C500A394AD /* Assets.xcassets */,
 				616F520D280582C500A394AD /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616F5217280587DB00A394AD /* NavigateTo.swift in Sources */,
 				616F520A280582C300A394AD /* ContentView.swift in Sources */,
 				616F5208280582C300A394AD /* test01App.swift in Sources */,
 			);
