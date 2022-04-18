@@ -1,0 +1,6 @@
+framework module Pods_Sqlite_Users {
+  umbrella header "Pods-Sqlite-Users-umbrella.h"
+
+  export *
+  module * { export * }
+}
