@@ -49,6 +49,7 @@ struct AddUserView: View {
                 .padding(.top, 10)
                 .padding(.bottom, 10)
         }.padding()
+        Spacer()
     }
 }
 

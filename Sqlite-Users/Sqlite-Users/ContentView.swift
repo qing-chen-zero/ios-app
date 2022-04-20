@@ -58,7 +58,6 @@ struct ContentView: View {
                 self.userModels = DB_Manager().getUsers()
             })
             .navigationBarTitle("Users")
-            
         }
     }
 }

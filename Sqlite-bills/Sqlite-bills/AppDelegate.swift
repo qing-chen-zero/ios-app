@@ -113,9 +113,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func createTables() -> Bool {
         var bRetVal : Bool = false
-        
-        let createTable = sqlite3_exec(dbQueue, "CREATE TABLE IF NOT EXISTS USER (NAME TEXT NULL, PASSWORD TEXT NULL, EMAIL TEXT NULL)", nil, nil, nil)
-        
+        let createTable = sqlite3_exec(dbQueue, "CREATE TABLE IF NOT
+                                       USER (NAME TEXT NULL, PASSWORD TEXT NULL, EMAIL TEXT NULL)", nil, nil, nil)
         if createTable != SQLITE_OK {
             print("Not able to create table")
             bRetVal = false

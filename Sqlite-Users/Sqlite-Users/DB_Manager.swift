@@ -9,6 +9,7 @@ import Foundation
 import SQLite
 
 class DB_Manager {
+    
     private var db: Connection!
     private var users: Table!
     private var id: Expression<Int64>!

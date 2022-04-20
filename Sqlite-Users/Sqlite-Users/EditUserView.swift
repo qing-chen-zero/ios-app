@@ -46,7 +46,7 @@ struct EditUserView: View {
                 Text("Edit User")
             }).frame(maxWidth: .infinity, alignment: .trailing)
                 .padding(.top, 10)
-                .padding(.bottom, 10)
+                .foregroundColor(Color(.systemTeal))
         }.padding()
             .onAppear(perform: {
                 let userModel: UserModel = DB_Manager().getUser(idValue: self.id)
@@ -55,6 +55,7 @@ struct EditUserView: View {
                 self.email = userModel.email
                 self.age = String(userModel.age)
             })
+        Spacer()
     }
 }
 
